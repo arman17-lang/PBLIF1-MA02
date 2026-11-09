@@ -1,0 +1,52 @@
+/* Tambahan khusus halaman formulir jadwal (memakai style.css sebagai dasar) */
+.content.wide { 
+    max-width: 1160px; 
+}
+.forms { 
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    gap: 22px; 
+    margin: 22px 0; 
+    align-items: start; 
+}
+.jform { 
+    padding: 24px 24px 20px; 
+}
+.jform .f-title { 
+    font-size: 20px; 
+    margin-bottom: 8px; }
+.jform .f-sub { 
+    margin-bottom: 20px; 
+}
+.jform label { 
+    color: var(--ink); 
+    font-size: 14px; 
+    font-weight: 600; 
+    margin-bottom: 14px; 
+}
+.jform .help { 
+    display: block; 
+    font-weight: 400; 
+    margin-top: 4px; 
+}
+.jform .err { 
+    display: block; 
+    color: var(--danger); 
+    font-size: 12px; 
+    font-weight: 500; 
+    margin-top: 4px; 
+}
+.jform input, .jform select { 
+    font-weight: 400; 
+    padding: 10px 12px; 
+}
+.jform .invalid { 
+    border-color: var(--danger); 
+}
+.jform .actions { 
+    margin: 6px 0 12px; 
+}
+.jform .f-duration { 
+    margin: 0; 
+}
+
