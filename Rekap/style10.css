@@ -1,0 +1,162 @@
+/* Tambahan untuk halaman Rekap tugas (memakai style.css dan jadwal.css-nya tabel sebagai dasar) */
+
+.page-title.first {
+  margin-top: 0;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+  margin-bottom: 22px;
+}
+.stat {
+  border: 1px solid var(--line);
+  padding: 16px 18px;
+}
+.stat .label {
+  margin: 0 0 8px;
+  font-size: 12px;
+  color: var(--muted);
+}
+.stat .value {
+  margin: 0 0 6px;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.1;
+}
+.stat .sub {
+  margin: 0;
+  font-size: 11px;
+  color: var(--muted);
+}
+
+.box {
+  border: 1px solid var(--line);
+  padding: 20px 20px 18px;
+  margin-bottom: 20px;
+}
+.box h3 {
+  margin: 0 0 16px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.table-wrap {
+  border: 1px solid var(--line);
+  overflow-x: auto;
+}
+.schedule {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 560px;
+}
+.schedule th {
+  text-align: left;
+  font-size: 12px;
+  font-weight: 600;
+  background: #e4e4e4;
+  padding: 13px 15px;
+}
+.schedule td,
+.schedule tfoot th {
+  padding: 15px;
+  font-size: 13px;
+}
+.schedule td {
+  border-top: 1px solid var(--line);
+}
+.schedule td:first-child {
+  font-weight: 600;
+}
+.schedule tfoot th {
+  background: #f1f1f1;
+  border-top: 1px solid var(--ink);
+  font-size: 13px;
+}
+.schedule .num {
+  text-align: center;
+}
+.schedule a {
+  color: var(--ink);
+}
+.schedule a:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: start;
+}
+.two-col .box {
+  margin-bottom: 20px;
+}
+
+/* Batang distribusi */
+.bar-row {
+  display: grid;
+  grid-template-columns: 90px 1fr 24px;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+  font-size: 13px;
+}
+.bar-track {
+  height: 18px;
+  background: #ececec;
+  border: 1px solid var(--line-soft);
+}
+.bar-fill {
+  height: 100%;
+  background: var(--ink);
+}
+.bar-fill.mid {
+  background: #6b6b6b;
+}
+.bar-fill.light {
+  background: #a8a8a8;
+}
+.bar-val {
+  font-weight: 600;
+  text-align: right;
+}
+
+.hint {
+  margin: 10px 0 0;
+  font-size: 12px;
+  color: var(--muted);
+}
+
+/* Progres */
+.progress-title {
+  margin: 0 0 12px;
+  font-size: 22px;
+  font-weight: 600;
+}
+.progress {
+  height: 20px;
+  background: #ececec;
+  border: 1px solid var(--line);
+}
+.progress-fill {
+  height: 100%;
+  background: var(--ink);
+  width: 0;
+}
+
+@media (max-width: 900px) {
+  .stats {
+    grid-template-columns: 1fr 1fr;
+  }
+  .two-col {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 480px) {
+  .stats {
+    grid-template-columns: 1fr;
+  }
+}
