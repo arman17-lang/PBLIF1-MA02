@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dashboard · Aplikasi daftar tugas dan belajar mahasiswa</title>
+  <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <h1 class="app-title">Aplikasi daftar tugas dan belajar mahasiswa</h1>
+      <p class="app-sub">Wireframe desktop</p>
+    </div>
+    <div class="user">
+      <strong>Peter Parker</strong>
+      <span>Informatika · Semester 3</span>
+    </div>
+  </header>
+
+  <div class="layout">
+    <aside class="sidebar">
+      <p class="side-label">Ruang mahasiswa</p>
+      <nav aria-label="Menu utama">
+        <a class="nav-item" href="Dasboard3.html">Dasboard</a>
+        <a class="nav-item" href="DaftarTugasDanPencarian2.html">Daftar Tugas</a>
+        <a class="nav-item" href="matakuliah1.html">Mata kuliah</a>
+        <a class="nav-item" href="JadwalBelajar8.html">Jadwal Belajar</a>
+        <a class="nav-item" href="RekapTugas10.html">Rekap</a>
+      </nav>
+      <div class="side-foot">
+        <p>Semester ganjil 2026/2027</p>
+        <p id="today-side"></p>
+      </div>
+    </aside>
+
+    <main class="content">
+      <div class="page-head">
+        <div>
+          <h2>Dashboard</h2>
+          <p id="greeting" class="muted"></p>
+        </div>
+        <button class="btn btn-primary" id="btn-add">+ Tambah tugas</button>
+      </div>
+
+      <section class="stats" aria-label="Ringkasan tugas">
+        <div class="card stat">
+          <span class="stat-label">Total tugas</span>
+          <strong class="stat-num" id="stat-total">0</strong>
+          <span class="stat-note" id="stat-courses"></span>
+        </div>
+        <div class="card stat">
+          <span class="stat-label">Belum Mulai</span>
+          <strong class="stat-num" id="stat-todo">0</strong>
+          <span class="stat-note">Perlu direncanakan</span>
+        </div>
+        <div class="card stat">
+          <span class="stat-label">Dikerjakan</span>
+          <strong class="stat-num" id="stat-doing">0</strong>
+          <span class="stat-note">Sedang berlangsung</span>
+        </div>
+        <div class="card stat">
+          <span class="stat-label">Selesai</span>
+          <strong class="stat-num" id="stat-done">0</strong>
+          <span class="stat-note" id="stat-percent"></span>
+        </div>
+      </section>
+
+      <section class="deadline">
+        <div class="section-head">
+          <h3>Mendekati deadline</h3>
+          <a class="btn btn-outline" href="DetailTugas4.html" data-go="Daftar tugas">Lihat semua tugas →</a>
+        </div>
+        <p class="muted small" id="deadline-range"></p>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Judul tugas</th>
+                <th>Mata kuliah</th>
+                <th>Deadline</th>
+                <th>Sisa waktu</th>
+                <th>Status</th>
+                <th>Aksi</th>
+              </tr>
+            </thead>
+            <tbody id="deadline-body"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="bottom">
+        <div class="card panel">
+          <h3>Jadwal belajar hari ini</h3>
+          <p class="slot" id="slot-time"></p>
+          <p>Review ERD dan relasi tabel</p>
+          <p class="muted small">Basis Data · Persiapan Perancangan ERD</p>
+          <a class="btn btn-outline" href="JadwalBelajar8.html" data-go="Jadwal belajar">Lihat jadwal belajar →</a>
+        </div>
+        <div class="card panel">
+          <h3>Tugas per mata kuliah</h3>
+          <ul class="course-list" id="course-list"></ul>
+          <p class="muted small">Rekap lengkap tersedia melalui menu Rekap.</p>
+        </div>
+      </section>
+
+      <p class="note">Batas ringkasan: deadline setelah hari ini sampai <span id="limit-date"></span>. Tugas berstatus Selesai tidak masuk daftar mendekati deadline.</p>
+
+      <footer class="foot">
+        <span>FR-06 · FR-07</span>
+        <span>Data contoh · <span id="today-foot"></span></span>
+      </footer>
+    </main>
+  </div>
+
+  <dialog id="dlg">
+    <form method="dialog" id="form-add">
+      <h3>Tambah tugas</h3>
+      <label>Judul tugas
+        <input name="title" required maxlength="60">
+      </label>
+      <label>Mata kuliah
+        <select name="course" required>
+          <option>Algoritma</option>
+          <option>Basis Data</option>
+          <option>Statistika</option>
+        </select>
+      </label>
+      <label>Deadline
+        <input type="date" name="due" required>
+      </label>
+      <label>Status
+        <select name="status">
+          <option>Belum Mulai</option>
+          <option>Dikerjakan</option>
+          <option>Selesai</option>
+        </select>
+      </label>
+      <div class="dlg-actions">
+        <button type="button" class="btn btn-outline" id="btn-cancel">Batal</button>
+        <button type="submit" class="btn btn-primary">Simpan tugas</button>
+      </div>
+    </form>
+  </dialog>
+
+  <script src="script3.js"></script>
+</body>
+</html>
