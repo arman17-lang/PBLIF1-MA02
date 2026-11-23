@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Daftar tugas · Aplikasi daftar tugas dan belajar mahasiswa</title>
-  <link rel="stylesheet" href="style2.css">
+  <link rel="stylesheet" href="css/style2.css">
 </head>
 <body>
   <header class="topbar">
