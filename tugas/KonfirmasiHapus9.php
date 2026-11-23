@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Konfirmasi hapus - Aplikasi daftar tugas dan belajar mahasiswa</title>
-  <link rel="stylesheet" href="style4.css">
-  <link rel="stylesheet" href="style9.css">
+  <link rel="stylesheet" href="css/style4.css">
+  <link rel="stylesheet" href="css/style9.css">
 </head>
 <body>
   <header class="topbar">

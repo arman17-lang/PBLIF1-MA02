@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Detail tugas · Perancangan ERD</title>
-  <link rel="stylesheet" href="style4.css">
+  <link rel="stylesheet" href="css/style4.css">
 </head>
 <body>
   <header class="topbar">
