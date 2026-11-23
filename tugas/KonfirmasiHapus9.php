@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Konfirmasi hapus - Aplikasi daftar tugas dan belajar mahasiswa</title>
-  <link rel="stylesheet" href="css/style4.css">
-  <link rel="stylesheet" href="css/style9.css">
+  <link rel="stylesheet" href="/PBLIF1-MA02/css/style4.css">
+  <link rel="stylesheet" href="/PBLIF1-MA02/css/style9.css">
 </head>
 <body>
   <header class="topbar">
@@ -145,6 +145,6 @@
     </main>
   </div>
 
-  <script src="script9.js"></script>
+  <script src="/PBLIF1-MA02/js/script9.js"></script>
 </body>
 </html>

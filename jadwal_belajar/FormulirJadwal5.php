@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Formulir jadwal belajar</title>
-  <link rel="stylesheet" href="style4.css">
-  <link rel="stylesheet" href="style5.css">
+  <link rel="stylesheet" href="/PBLIF1-MA02/css/style4.css">
+  <link rel="stylesheet" href="/PBLIF1-MA02/css/style5.css">
 </head>
 <body>
   <header class="topbar">
@@ -96,6 +96,6 @@
   </template>
 
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
-  <script src="script5.js"></script>
+  <script src="/PBLIF1-MA02/js/script5.js"></script>
 </body>
 </html>

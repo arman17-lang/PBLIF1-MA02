@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Jadwal belajar - Aplikasi daftar tugas dan belajar mahasiswa</title>
-  <link rel="stylesheet" href="style4.css">
-  <link rel="stylesheet" href="style8.css">
+  <link rel="stylesheet" href="/PBLIF1-MA02/css/style4.css">
+  <link rel="stylesheet" href="/PBLIF1-MA02/css/style8.css">
 </head>
 <body>
   <header class="topbar">
@@ -130,6 +130,6 @@
     </form>
   </dialog>
 
-  <script src="script8.js"></script>
+  <script src="/PBLIF1-MA02/js/script8.js"></script>
 </body>
 </html>

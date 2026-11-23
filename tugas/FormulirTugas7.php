@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Formulir tugas - Aplikasi daftar tugas dan belajar mahasiswa</title>
-  <link rel="stylesheet" href="css/style7.css">
+  <link rel="stylesheet" href="/PBLIF1-MA02/css/style7.css">
 </head>
 <body>
   <header class="topbar">
@@ -192,6 +192,6 @@
     </main>
   </div>
 
-  <script src="script7.js"></script>
+  <script src="/PBLIF1-MA02/js/script7.js"></script>
 </body>
 </html>

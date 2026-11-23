@@ -143,6 +143,6 @@
     </form>
   </dialog>
 
-  <script src="script3.js"></script>
+  <script src="/PBLIF1-MA02/js/script3.js"></script>
 </body>
 </html>

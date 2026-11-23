@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Daftar tugas · Aplikasi daftar tugas dan belajar mahasiswa</title>
-  <link rel="stylesheet" href="css/style2.css">
+  <link rel="stylesheet" href="/PBLIF1-MA02/css/style2.css">
 </head>
 <body>
   <header class="topbar">
@@ -155,6 +155,6 @@
     </div>
   </dialog>
 
-  <script src="script2.js"></script>
+  <script src="/PBLIF1-MA02/js/script2.js"></script>
 </body>
 </html>
