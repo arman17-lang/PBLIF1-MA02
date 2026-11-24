@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Konfirmasi hapus - Aplikasi daftar tugas dan belajar mahasiswa</title>
-  <link rel="stylesheet" href="/PBLIF1-MA02/css/style4.css">
-  <link rel="stylesheet" href="/PBLIF1-MA02/css/style9.css">
+  <link rel="stylesheet" href="../css/style4.css">
+  <link rel="stylesheet" href="../css/style9.css">
 </head>
 <body>
   <header class="topbar">
@@ -23,11 +23,11 @@
     <aside class="sidebar">
       <p class="side-label">Ruang mahasiswa</p>
       <nav>
-        <a href="#">Dashboard</a>
-        <a href="index.html" class="active" aria-current="page">Daftar tugas</a>
-        <a href="#">Mata kuliah</a>
-        <a href="jadwal.html">Jadwal belajar</a>
-        <a href="rekap.html">Rekap</a>
+        <a href="../index.php">Dashboard</a>
+        <a href="DaftarTugasDanPencarian2.php" class="active" aria-current="page">Daftar tugas</a>
+        <a href="../mata_kuliah/MataKuliah1.php">Mata kuliah</a>
+        <a href="../jadwal_belajar/JadwalBelajar8.php">Jadwal belajar</a>
+        <a href="../rekap/RekapTugas10.php">Rekap</a>
       </nav>
       <div class="side-info">
         <p>Semester ganjil 2026/2027</p>
@@ -145,6 +145,6 @@
     </main>
   </div>
 
-  <script src="/PBLIF1-MA02/js/script9.js"></script>
+  <script src="../js/script9.js"></script>
 </body>
 </html>

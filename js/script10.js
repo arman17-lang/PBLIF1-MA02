@@ -65,7 +65,7 @@
     tr.appendChild(el("td", String(hitung(m)), "num"));
     var aksi = el("td");
     var a = el("a", "Lihat tugas →");
-    a.href = "index.html?matkul=" + encodeURIComponent(m);
+    a.href = "../tugas/DaftarTugasDanPencarian2.php?matkul=" + encodeURIComponent(m);
     aksi.appendChild(a);
     tr.appendChild(aksi);
     tbody.appendChild(tr);

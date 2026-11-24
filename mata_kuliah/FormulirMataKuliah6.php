@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Formulir mata kuliah</title>
-  <link rel="stylesheet" href="/PBLIF1-MA02/css/style4.css">
-  <link rel="stylesheet" href="/PBLIF1-MA02/css/style6.css">
+  <link rel="stylesheet" href="../css/style4.css">
+  <link rel="stylesheet" href="../css/style6.css">
 </head>
 <body>
   <header class="topbar">
@@ -23,11 +23,11 @@
     <aside class="sidebar">
       <p class="muted small side-label">Ruang mahasiswa</p>
       <nav>
-        <a href="#">Dashboard</a>
-        <a href="index.html">Daftar tugas</a>
-        <a href="#" class="active" aria-current="page">Mata kuliah</a>
-        <a href="formulir-jadwal.html">Jadwal belajar</a>
-        <a href="#">Rekap</a>
+        <a href="../index.php">Dashboard</a>
+        <a href="../tugas/DaftarTugasDanPencarian2.php">Daftar tugas</a>
+        <a href="MataKuliah1.php" class="active" aria-current="page">Mata kuliah</a>
+        <a href="../jadwal_belajar/JadwalBelajar8.php">Jadwal belajar</a>
+        <a href="../rekap/RekapTugas10.php">Rekap</a>
       </nav>
       <div class="side-foot muted small">
         <p>Semester ganjil 2026/2027</p>
@@ -89,6 +89,6 @@
   </template>
 
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
-  <script src="/PBLIF1-MA02/js/script6.js"></script>
+  <script src="../js/script6.js"></script>
 </body>
 </html>

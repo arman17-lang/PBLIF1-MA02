@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Rekap tugas - Aplikasi daftar tugas dan belajar mahasiswa</title>
-  <link rel="stylesheet" href="/PBLIF1-MA02/css/style4.css">
-  <link rel="stylesheet" href="/PBLIF1-MA02/css/style10.css">
+  <link rel="stylesheet" href="../css/style4.css">
+  <link rel="stylesheet" href="../css/style10.css">
 </head>
 <body>
   <header class="topbar">
@@ -23,11 +23,11 @@
     <aside class="sidebar">
       <p class="side-label">Ruang mahasiswa</p>
       <nav>
-        <a class="nav-item" href="Dasboard3.html">Dasboard</a>
-        <a class="nav-item" href="DaftarTugasDanPencarian2.html">Daftar Tugas</a>
-        <a class="nav-item" href="matakuliah1.html">Mata kuliah</a>
-        <a class="nav-item" href="JadwalBelajar8.html">Jadwal Belajar</a>
-        <a class="nav-item" href="RekapTugas10.html">Rekap</a>
+        <a class="nav-item" href="../index.php">Dasboard</a>
+        <a class="nav-item" href="../tugas/DaftarTugasDanPencarian2.php">Daftar Tugas</a>
+        <a class="nav-item" href="../mata_kuliah/MataKuliah1.php">Mata kuliah</a>
+        <a class="nav-item" href="../jadwal_belajar/JadwalBelajar8.php">Jadwal Belajar</a>
+        <a class="nav-item" href="RekapTugas10.php">Rekap</a>
       <div class="side-info">
         <p>Semester ganjil 2026/2027</p>
         <p>Rabu, 21 Oktober 2026</p>
@@ -91,6 +91,6 @@
     </main>
   </div>
 
-  <script src="/PBLIF1-MA02/js/script10.js"></script>
+  <script src="../js/script10.js"></script>
 </body>
 </html>

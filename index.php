@@ -24,7 +24,7 @@
       <nav aria-label="Menu utama">
         <a class="nav-item" href="index.php">Dasboard</a>
         <a class="nav-item" href="tugas/DaftarTugasDanPencarian2.php">Daftar Tugas</a>
-        <a class="nav-item" href="mata_kuliah/matakuliah1.php">Mata kuliah</a>
+        <a class="nav-item" href="mata_kuliah/MataKuliah1.php">Mata kuliah</a>
         <a class="nav-item" href="jadwal_belajar/JadwalBelajar8.php">Jadwal Belajar</a>
         <a class="nav-item" href="rekap/RekapTugas10.php">Rekap</a>
       </nav>
@@ -69,7 +69,7 @@
       <section class="deadline">
         <div class="section-head">
           <h3>Mendekati deadline</h3>
-          <a class="btn btn-outline" href="tugas/DetailTugas4.html" data-go="Daftar tugas">Lihat semua tugas →</a>
+          <a class="btn btn-outline" href="tugas/DaftarTugasDanPencarian2.php" data-go="Daftar tugas">Lihat semua tugas →</a>
         </div>
         <p class="muted small" id="deadline-range"></p>
         <div class="table-wrap">
@@ -95,7 +95,7 @@
           <p class="slot" id="slot-time"></p>
           <p>Review ERD dan relasi tabel</p>
           <p class="muted small">Basis Data · Persiapan Perancangan ERD</p>
-          <a class="btn btn-outline" href="JadwalBelajar8.html" data-go="Jadwal belajar">Lihat jadwal belajar →</a>
+          <a class="btn btn-outline" href="jadwal_belajar/JadwalBelajar8.php" data-go="Jadwal belajar">Lihat jadwal belajar →</a>
         </div>
         <div class="card panel">
           <h3>Tugas per mata kuliah</h3>
@@ -143,6 +143,6 @@
     </form>
   </dialog>
 
-  <script src="/PBLIF1-MA02/js/script3.js"></script>
+  <script src="js/script3.js"></script>
 </body>
 </html>
