@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Rekap tugas - Aplikasi daftar tugas dan belajar mahasiswa</title>
-  <link rel="stylesheet" href="../css/style4.css">
-  <link rel="stylesheet" href="../css/style10.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/rekaptugas.css">
 </head>
 <body>
   <header class="topbar">
@@ -91,6 +91,6 @@
     </main>
   </div>
 
-  <script src="../js/script10.js"></script>
+  <script src="../js/rekaptugas.js"></script>
 </body>
 </html>

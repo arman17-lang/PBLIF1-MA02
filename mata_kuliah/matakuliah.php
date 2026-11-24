@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Mata kuliah · Aplikasi daftar tugas dan belajar mahasiswa</title>
-  <link rel="stylesheet" href="../css/style1.css">
+  <link rel="stylesheet" href="../css/matakuliah.css">
 </head>
 <body>
   <header class="topbar">
@@ -92,6 +92,6 @@
     </form>
   </dialog>
 
-  <script src="../js/script1.js"></script>
+  <script src="../js/matakuliah.js"></script>
 </body>
 </html>

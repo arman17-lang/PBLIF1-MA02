@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Formulir mata kuliah</title>
-  <link rel="stylesheet" href="../css/style4.css">
-  <link rel="stylesheet" href="../css/style6.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/formulirmatkul.css">
 </head>
 <body>
   <header class="topbar">
@@ -89,6 +89,6 @@
   </template>
 
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
-  <script src="../js/script6.js"></script>
+  <script src="../js/formulirmatkul.js"></script>
 </body>
 </html>

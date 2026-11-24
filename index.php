@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Dashboard · Aplikasi daftar tugas dan belajar mahasiswa</title>
-  <link rel="stylesheet" href="css/style3.css">
+  <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
   <header class="topbar">
@@ -143,6 +143,6 @@
     </form>
   </dialog>
 
-  <script src="js/script3.js"></script>
+  <script src="js/index.js"></script>
 </body>
 </html>

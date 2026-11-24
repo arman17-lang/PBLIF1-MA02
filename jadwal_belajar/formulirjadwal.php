@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Formulir jadwal belajar</title>
-  <link rel="stylesheet" href="../css/style4.css">
-  <link rel="stylesheet" href="../css/style5.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/formulirjadwal.css">
 </head>
 <body>
   <header class="topbar">
@@ -96,6 +96,6 @@
   </template>
 
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
-  <script src="../js/script5.js"></script>
+  <script src="../js/formulirjadwal.js"></script>
 </body>
 </html>
